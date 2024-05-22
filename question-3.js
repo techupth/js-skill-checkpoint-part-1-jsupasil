@@ -12,12 +12,12 @@ const checkPasswordStrength = (userPassword) =>
     ? "Medium"
     : "Strong";
 
-//Test Case
-let userPasswordStrong = "swnalWadqQ";
-console.log(checkPasswordStrength(userPasswordStrong)); // "Strong"
+//Test Cases
+// let userPasswordStrong = "swnalWadqQ";
+// console.log(checkPasswordStrength(userPasswordStrong)); // "Strong"
 
-let userPasswordMedium = "TechUp";
-console.log(checkPasswordStrength(userPasswordMedium)); // "Medium"
+// let userPasswordMedium = "TechUp";
+// console.log(checkPasswordStrength(userPasswordMedium)); // "Medium"
 
-let userPasswordWeak = "abcde";
-console.log(checkPasswordStrength(userPasswordWeak)); // "Weak"
+// let userPasswordWeak = "abcde";
+// console.log(checkPasswordStrength(userPasswordWeak)); // "Weak"
