@@ -8,12 +8,12 @@ let userPassword = "";
 const checkPasswordStrength = (userPassword) =>
   userPassword.length < 6
     ? "Weak"
-    : userPassword.length < 10
+    : userPassword.length <= 10
     ? "Medium"
     : "Strong";
 
 //Test Cases
-// let userPasswordStrong = "swnalWadqQ";
+// let userPasswordStrong = "ssswnalWadqQ";
 // console.log(checkPasswordStrength(userPasswordStrong)); // "Strong"
 
 // let userPasswordMedium = "TechUp";
