@@ -5,7 +5,7 @@ let userPassword = "";
 //และ Return ผลลัพธ์ออกมาเป็น String ตามเงื่อนไขต่อไปนี้
 
 function checkPasswordStrength(userPassword) {
-  if (userPassword.length >= 10) {
+  if (userPassword.length > 10) {
     return "Strong";
   } else if (userPassword.length >= 6) {
     return "Medium";
@@ -15,6 +15,6 @@ function checkPasswordStrength(userPassword) {
 }
 
 //Test Cases
-console.log(checkPasswordStrength("swnalWadqQ")); // "Strong"
+console.log(checkPasswordStrength("ssswnalWadqQ")); // "Strong"
 console.log(checkPasswordStrength("TechUp")); // "Medium"
 console.log(checkPasswordStrength("abcde")); // "Weak"
